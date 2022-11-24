@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
+import '../styles/App.css';
 import { Home } from "./views/home";
 import { Demo } from "./views/demo";
 import { Single } from "./views/single";
@@ -12,6 +13,7 @@ import Vehicles from './views/Vehicles';
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
 
+
 //create your first component
 const Layout = () => {
 	//the basename is used when your project is published in a subdirectory and not in the root of the domain
@@ -19,7 +21,7 @@ const Layout = () => {
 	const basename = process.env.BASENAME || "";
 
 	return (
-		<div>
+		<div class= "background">
 			<BrowserRouter basename={basename}>
 				<ScrollToTop>
 					<Navbar />

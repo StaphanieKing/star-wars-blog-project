@@ -1,0 +1,22 @@
+.card {
+    height: 600px;
+    padding: 5px;
+    border-radius: 10px;
+    display:flex;
+    background-color: blue;
+
+
+}
+card-img-top{
+    width: 75%;
+    margin:0 auto;
+}
+
+button-card{
+    justify-content:space-between;
+    margin: 10px 10px;
+}
+
+.background {
+    background: black;
+}
